@@ -1,0 +1,40 @@
+{
+    "name": "simonellensohn/waybar-netatmo-weather-module",
+    "description": "Basic waybar module displaying the current Netatmo weather station readings.",
+    "keywords": ["waybar", "netatmo", "laravel", "laravel zero", "console", "cli"],
+    "homepage": "https://simonellensohn.com",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/simonellensohn/waybar-netatmo-weather-module/issues",
+        "source": "https://github.com/simonellensohn/waybar-netatmo-weather-module"
+    },
+    "authors": [
+        {
+            "name": "Simon Ellensohn",
+            "email": "ellensohn.simon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "illuminate/http": "^12.17",
+        "laravel-zero/framework": "^12.0.2"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.25.1",
+        "phpacker/phpacker": "^0.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "bin": ["waybar-netatmo-weather-module"]
+}
